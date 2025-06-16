@@ -8,8 +8,8 @@ The goal is to reimplement the Unity public transportation digital twin in a bro
 WMS link : https://data.mobility.brussels/geoserver/ows
 Layer : 
 - bm_public_transport:stib_lines
-- infrabel_lines
-- delijn_lines
+- bm_public_transport:infrabel_lines
+- bm_public_transport:delijn_lines
 
 Visualise in cesium sandcastle 
 NOT WORKING WHY ??
@@ -45,8 +45,8 @@ function addWmsLayer(layerName, title, color) {
 
 // Add layers
 addWmsLayer("bm_public_transport:stib_lines", "STIB Lines");
-addWmsLayer("infrabel_lines", "Infrabel Lines");
-addWmsLayer("delijn_lines", "De Lijn Lines");
+addWmsLayer("bm_public_transport:infrabel_lines", "Infrabel Lines");
+addWmsLayer("bm_public_transport:delijn_lines", "De Lijn Lines");
 ```
 
 ### Urbis
