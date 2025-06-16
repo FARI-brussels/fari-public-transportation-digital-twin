@@ -85,10 +85,10 @@ viewer.camera.setView({
 
 
 ## 3D assets
-bus  : 3465321
-tram : 3465325
-train : 3465324
-bus stop : 3465322
+- bus  : 3465321
+- tram : 3465325
+- train : 3465324
+- bus stop : 3465322
 
 
 
