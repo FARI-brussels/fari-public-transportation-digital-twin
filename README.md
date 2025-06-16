@@ -134,3 +134,11 @@ viewer.camera.flyTo({
   destination: Cesium.Cartesian3.fromDegrees(4.35, 50.85, 1000),
 });
 ```
+
+
+https://github.com/FARI-brussels/Fari-Brussels-Digital-Twin-Unity/blob/main/ServerExt/update_geoJsonDeLijn.py This is used to convert the data from delijn to the same format as stib and sncb data.
+The api should run in the background for now. We will implement that in the global backend after.
+
+https://github.com/FARI-brussels/Fari-Brussels-Digital-Twin-Unity/blob/main/DigitalTwin/Assets/Script/API/ApiClient.cs This is getting all position from the different api 
+
+https://github.com/FARI-brussels/Fari-Brussels-Digital-Twin-Unity/blob/main/DigitalTwin/Assets/Script/Other%20Manager/Stib/Visualization/VehicleMover.cs this is effectively moving the vehicules
