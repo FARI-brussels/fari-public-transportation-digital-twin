@@ -12,7 +12,7 @@ Layer :
 - bm_public_transport:delijn_lines
 
 Visualise in cesium sandcastle 
-NOT WORKING WHY ??
+IT IS NOT WORKING BECAUSE OF CORS ON THE BRUXELLES MOBILITY SERVER
 ```javascript
 const viewer = new Cesium.Viewer("cesiumContainer", {
   timeline: false,
